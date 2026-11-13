@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #222; }
+header { padding: 12px 20px 4px; }
+h1 { margin: 0; font-size: 1.4rem; }
+.note { margin: 4px 0; color: #666; font-size: 0.9rem; }
+.controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; padding: 8px 20px 12px; }
+.controls label { display: flex; flex-direction: column; font-size: 0.8rem; color: #555; }
+.controls select { margin-top: 2px; padding: 4px 6px; font-size: 0.95rem; }
+#count { color: #555; }
+.button { margin-left: auto; padding: 8px 14px; background: #1f5fa8; color: #fff; border-radius: 6px; text-decoration: none; }
+.button:hover { background: #174a83; }
+#map { height: calc(100vh - 120px); min-height: 400px; }
+.leaflet-popup-content table { border-collapse: collapse; margin-top: 6px; font-size: 0.8rem; }
+.leaflet-popup-content td, .leaflet-popup-content th { padding: 2px 6px; border-bottom: 1px solid #eee; text-align: left; }

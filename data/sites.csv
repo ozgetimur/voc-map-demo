@@ -1,0 +1,26 @@
+site_id,name,country,lat,lon,site_type
+1,Jülich,Germany,50.91,6.41,suburban
+2,Cologne,Germany,50.94,6.96,urban
+3,Paris,France,48.86,2.35,urban
+4,London,United Kingdom,51.51,-0.13,urban
+5,Ispra,Italy,45.81,8.63,suburban
+6,Hyytiälä,Finland,61.85,24.29,forest
+7,Istanbul,Türkiye,41.01,28.98,urban
+8,Los Angeles,USA,34.05,-118.24,urban
+9,Houston,USA,29.76,-95.37,urban
+10,Toronto,Canada,43.65,-79.38,urban
+11,Mexico City,Mexico,19.43,-99.13,urban
+12,Manaus (ATTO),Brazil,-2.14,-59.0,forest
+13,São Paulo,Brazil,-23.55,-46.63,urban
+14,Santiago,Chile,-33.45,-70.67,urban
+15,Lagos,Nigeria,6.52,3.38,urban
+16,Nairobi,Kenya,-1.29,36.82,urban
+17,Cape Town,South Africa,-33.92,18.42,suburban
+18,Cape Verde Observatory,Cabo Verde,16.86,-24.87,remote
+19,Delhi,India,28.61,77.21,urban
+20,Beijing,China,39.9,116.4,urban
+21,Seoul,South Korea,37.57,126.98,urban
+22,Tokyo,Japan,35.68,139.69,urban
+23,Danum Valley,Malaysia,4.98,117.84,forest
+24,Sydney,Australia,-33.87,151.21,urban
+25,Mauna Loa,USA,19.54,-155.58,remote

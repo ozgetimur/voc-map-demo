@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VOC Map Demo</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>VOC Map Demo</h1>
+    <p class="note">Practice project. <strong>Synthetic data</strong>, not real measurements.</p>
+  </header>
+
+  <section class="controls">
+    <label>Compound
+      <select id="compound">
+        <option value="">All</option>
+        {% for c in compounds %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+      </select>
+    </label>
+    <label>Site type
+      <select id="site_type">
+        <option value="">All</option>
+        {% for t in site_types %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
+      </select>
+    </label>
+    <span id="count"></span>
+    <a id="download" class="button" href="/download.csv">Download CSV</a>
+  </section>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="{{ url_for('static', filename='map.js') }}"></script>
+</body>
+</html>
